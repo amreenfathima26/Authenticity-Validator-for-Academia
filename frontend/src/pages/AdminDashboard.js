@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import { toast } from 'react-toastify';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import './AdminDashboard.css';
@@ -16,7 +16,7 @@ const AdminDashboard = () => {
 
   const fetchDashboardData = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/admin/dashboard');
+      const response = await api.get('/api/admin/dashboard');
       setStats(response.data);
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
@@ -27,7 +27,7 @@ const AdminDashboard = () => {
 
   const fetchAlerts = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/admin/alerts?status=open');
+      const response = await api.get('/api/admin/alerts?status=open');
       setAlerts(response.data.alerts);
     } catch (error) {
       console.error('Error fetching alerts:', error);
@@ -36,7 +36,7 @@ const AdminDashboard = () => {
 
   const resolveAlert = async (alertId) => {
     try {
-      await axios.put(`http://localhost:5000/api/admin/alerts/${alertId}/resolve`);
+      await api.put(`/api/admin/alerts/${alertId}/resolve`);
       toast.success('Alert resolved');
       fetchAlerts();
     } catch (error) {
@@ -164,7 +164,7 @@ const AdminDashboard = () => {
                       <span className="alert-desc">{alert.description}</span>
                       <span className="alert-severity severity-{alert.severity}">{alert.severity}</span>
                     </div>
-                    <button 
+                    <button
                       className="resolve-btn"
                       onClick={() => resolveAlert(alert.id)}
                     >

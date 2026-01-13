@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import { toast } from 'react-toastify';
 import './VerifyCertificate.css';
 
@@ -35,7 +35,7 @@ const VerifyCertificate = () => {
 
     try {
       setLoading(true);
-      const uploadRes = await axios.post('http://localhost:5000/api/upload/certificate', formData, {
+      const uploadRes = await api.post('/api/upload/certificate', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
 
@@ -64,10 +64,10 @@ const VerifyCertificate = () => {
         certificate_number: manualData.certificate_number || null
       };
 
-      const response = await axios.post('http://localhost:5000/api/verifications', verificationData);
+      const response = await api.post('/api/verifications', verificationData);
 
       setResult(response.data);
-      
+
       if (response.data.result.status === 'verified') {
         toast.success('Certificate verified successfully!');
       } else if (response.data.result.status === 'suspicious') {
@@ -188,8 +188,8 @@ const VerifyCertificate = () => {
             <h2>Verification Result</h2>
             <div className={`result-status ${result.result.status}`}>
               <span className="status-icon">
-                {result.result.status === 'verified' ? '✅' : 
-                 result.result.status === 'suspicious' ? '⚠️' : '❌'}
+                {result.result.status === 'verified' ? '✅' :
+                  result.result.status === 'suspicious' ? '⚠️' : '❌'}
               </span>
               <span className="status-text">{result.result.status.toUpperCase()}</span>
             </div>

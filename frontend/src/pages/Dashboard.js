@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
-import axios from 'axios';
+import api from '../utils/api';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -22,12 +22,12 @@ const Dashboard = () => {
     try {
       // Fetch user-specific statistics
       const [certsRes, verifRes] = await Promise.all([
-        axios.get('http://localhost:5000/api/certificates?limit=1'),
-        axios.get('http://localhost:5000/api/verifications?limit=1')
+        api.get('/api/certificates?limit=1'),
+        api.get('/api/verifications?limit=1')
       ]);
 
-      const verifiedRes = await axios.get('http://localhost:5000/api/verifications?status=verified&limit=1');
-      const rejectedRes = await axios.get('http://localhost:5000/api/verifications?status=rejected&limit=1');
+      const verifiedRes = await api.get('/api/verifications?status=verified&limit=1');
+      const rejectedRes = await api.get('/api/verifications?status=rejected&limit=1');
 
       setStats({
         totalCertificates: certsRes.data.total || 0,

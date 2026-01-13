@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import { toast } from 'react-toastify';
 import AuthContext from '../context/AuthContext';
 import './Institutions.css';
@@ -30,7 +30,7 @@ const Institutions = () => {
   const fetchInstitutions = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:5000/api/institutions');
+      const response = await api.get('/api/institutions');
       setInstitutions(response.data.institutions);
     } catch (error) {
       toast.error('Failed to fetch institutions');
@@ -42,7 +42,7 @@ const Institutions = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/institutions', formData);
+      await api.post('/api/institutions', formData);
       toast.success('Institution created successfully');
       setShowModal(false);
       resetForm();
@@ -70,7 +70,7 @@ const Institutions = () => {
         };
       });
 
-      await axios.post('http://localhost:5000/api/institutions/bulk-upload', {
+      await api.post('/api/institutions/bulk-upload', {
         institution_id: user?.institution_id,
         certificates
       });
@@ -86,14 +86,14 @@ const Institutions = () => {
 
   const handleBulkInstitutionUpload = async () => {
     if (uploading) return;
-    
+
     try {
       // Get the current value directly from the textarea if possible
       const dataToProcess = bulkInstitutionData || '';
       console.log('Bulk institution data:', dataToProcess);
       console.log('Data length:', dataToProcess?.length);
       console.log('Trimmed length:', dataToProcess?.trim()?.length);
-      
+
       if (!dataToProcess || dataToProcess.trim() === '') {
         toast.error('Please enter institution data in the text area. Format: Name, Code, Type');
         return;
@@ -102,7 +102,7 @@ const Institutions = () => {
       setUploading(true);
 
       const lines = dataToProcess.split('\n').filter(line => line.trim());
-      
+
       if (lines.length === 0) {
         toast.error('No valid data found. Please enter institution data.');
         setUploading(false);
@@ -114,7 +114,7 @@ const Institutions = () => {
 
       lines.forEach((line, index) => {
         const parts = line.split(',').map(p => p.trim());
-        
+
         if (parts.length < 3) {
           errors.push(`Line ${index + 1}: Insufficient data. Required: Name, Code, Type`);
           return;
@@ -149,7 +149,7 @@ const Institutions = () => {
       console.log('Sending institutions:', institutions);
       console.log('Institutions count:', institutions.length);
 
-      const response = await axios.post('http://localhost:5000/api/institutions/bulk-upload-institutions', {
+      const response = await api.post('/api/institutions/bulk-upload-institutions', {
         institutions
       }, {
         headers: {
@@ -315,7 +315,7 @@ const Institutions = () => {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Bulk Upload Certificates</h2>
             <p className="bulk-instructions">
-              Enter certificate data in CSV format (one per line):<br/>
+              Enter certificate data in CSV format (one per line):<br />
               Certificate Number, Student Name, Roll Number, Course, Year, Marks Obtained, Total Marks, Percentage
             </p>
             <textarea
@@ -338,9 +338,9 @@ const Institutions = () => {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h2>Bulk Upload Institutions</h2>
             <p className="bulk-instructions">
-              Enter institution data in CSV format (one per line):<br/>
-              <strong>Format:</strong> Name, Code, Type, Address, Contact Email, Contact Phone<br/>
-              <strong>Required:</strong> Name, Code, Type<br/>
+              Enter institution data in CSV format (one per line):<br />
+              <strong>Format:</strong> Name, Code, Type, Address, Contact Email, Contact Phone<br />
+              <strong>Required:</strong> Name, Code, Type<br />
               <strong>Optional:</strong> Address, Contact Email, Contact Phone
             </p>
             <textarea
@@ -359,23 +359,23 @@ const Institutions = () => {
               </p>
             )}
             <div className="modal-actions">
-              <button 
-                type="button" 
+              <button
+                type="button"
                 onClick={(e) => {
                   e.stopPropagation();
                   setShowBulkInstitutionModal(false);
                   setBulkInstitutionData('');
-                }} 
+                }}
                 disabled={uploading}
               >
                 Cancel
               </button>
-              <button 
-                type="button" 
+              <button
+                type="button"
                 onClick={(e) => {
                   e.stopPropagation();
                   handleBulkInstitutionUpload();
-                }} 
+                }}
                 disabled={uploading}
               >
                 {uploading ? 'Uploading...' : 'Upload'}

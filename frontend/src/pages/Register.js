@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import AuthContext from '../context/AuthContext';
-import axios from 'axios';
+import api from '../utils/api';
 import './Register.css';
 
 const Register = () => {
@@ -25,7 +25,7 @@ const Register = () => {
 
   const fetchInstitutions = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/institutions');
+      const response = await api.get('/api/institutions');
       setInstitutions(response.data.institutions);
     } catch (error) {
       console.error('Error fetching institutions:', error);

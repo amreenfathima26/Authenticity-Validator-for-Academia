@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import { toast } from 'react-toastify';
 import AuthContext from '../context/AuthContext';
 import './Certificates.css';
@@ -46,7 +46,7 @@ const Certificates = () => {
       if (filters.certificate_number) params.append('certificate_number', filters.certificate_number);
       if (filters.student_name) params.append('student_name', filters.student_name);
 
-      const response = await axios.get(`http://localhost:5000/api/certificates?${params}`);
+      const response = await api.get(`/api/certificates?${params}`);
       setCertificates(response.data.certificates);
     } catch (error) {
       toast.error('Failed to fetch certificates');
@@ -57,7 +57,7 @@ const Certificates = () => {
 
   const fetchInstitutions = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/institutions');
+      const response = await api.get('/api/institutions');
       setInstitutions(response.data.institutions);
     } catch (error) {
       console.error('Error fetching institutions:', error);
@@ -68,10 +68,10 @@ const Certificates = () => {
     e.preventDefault();
     try {
       if (editingCert) {
-        await axios.put(`http://localhost:5000/api/certificates/${editingCert.id}`, formData);
+        await api.put(`/api/certificates/${editingCert.id}`, formData);
         toast.success('Certificate updated successfully');
       } else {
-        await axios.post('http://localhost:5000/api/certificates', formData);
+        await api.post('/api/certificates', formData);
         toast.success('Certificate created successfully');
       }
       setShowModal(false);
@@ -135,7 +135,7 @@ const Certificates = () => {
         formDataUpload.append('institution_id', instId);
       }
 
-      const response = await axios.post('http://localhost:5000/api/certificates/batch', formDataUpload, {
+      const response = await api.post('/api/certificates/batch', formDataUpload, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

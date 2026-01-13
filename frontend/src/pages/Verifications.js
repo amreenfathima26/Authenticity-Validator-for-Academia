@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../utils/api';
 import './Verifications.css';
 
 const Verifications = () => {
@@ -15,7 +15,7 @@ const Verifications = () => {
     try {
       setLoading(true);
       const params = filter ? `?status=${filter}` : '';
-      const response = await axios.get(`http://localhost:5000/api/verifications${params}`);
+      const response = await api.get(`/api/verifications${params}`);
       setVerifications(response.data.verifications);
     } catch (error) {
       console.error('Error fetching verifications:', error);
