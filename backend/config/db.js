@@ -13,12 +13,22 @@ const connectDB = async () => {
   if (isProduction) {
     if (pgPool) return pgPool;
     try {
-      const connStr = process.env.DATABASE_URL;
+      let connStr = process.env.DATABASE_URL;
+
+      // AUTO-FIX: Clean the connection string if the user pasted the full 'psql' command
+      if (connStr.startsWith('psql ')) {
+        console.log('Detected "psql" command format. Cleaning the connection string...');
+        connStr = connStr.replace(/^psql\s+['"]?/, '').replace(/['"]?$/, '');
+      }
 
       // Mask sensitive info for logging
       try {
         const masked = connStr.replace(/(:\/\/)(.*)(:)(.*)(@)/, '$1***:***@');
         console.log(`Attempting to connect to PostgreSQL at: ${masked}`);
+
+        if (process.env.PGHOST) {
+          console.log(`Note: PGHOST environment variable is also set to: ${process.env.PGHOST}`);
+        }
 
         // Specific check for the common "ENOTFOUND base" error
         if (connStr.includes('@base') || connStr.includes('//base')) {
