@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: authenticity-backend
+    runtime: node
+    plan: free
+    region: singapore
+    rootDirectory: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: authenticity-db
+          property: connectionString
+
+databases:
+  - name: authenticity-db
+    plan: free
+    region: singapore
+    databaseName: authenticity_db
+    user: authenticity_user
