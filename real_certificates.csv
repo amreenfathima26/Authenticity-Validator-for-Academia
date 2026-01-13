@@ -1,0 +1,155 @@
+IITB001, Aarav Sharma, 19001001, B.Tech Computer Science, 2023, 9.4, 10, 94.0
+IITB002, Vivaan Patel, 19001002, B.Tech Electrical, 2023, 8.9, 10, 89.0
+IITB003, Aditya Kumar, 19001003, B.Tech Mechanical, 2023, 9.1, 10, 91.0
+IITB004, Vihaan Singh, 19001004, B.Tech Civil, 2023, 8.5, 10, 85.0
+IITB005, Arjun Gupta, 19001005, M.Tech Data Science, 2023, 9.6, 10, 96.0
+IITB006, Sai Reddy, 19001006, Ph.D AI, 2024, 0, 0, 0
+IITB007, Reyansh Mishra, 19001007, B.Tech Chemical, 2022, 8.2, 10, 82.0
+IITB008, Ayan Joshi, 19001008, B.Tech Aerospace, 2023, 9.0, 10, 90.0
+IITB009, Krishna Iyer, 19001009, B.Des, 2023, 8.8, 10, 88.0
+IITB010, Ishan Verma, 19001010, M.Sc Physics, 2023, 9.2, 10, 92.0
+IITB011, Ananya Gupta, 19001011, B.Tech Computer Science, 2023, 9.3, 10, 93.0
+IITB012, Rohan Das, 19001012, B.Tech Electrical, 2023, 8.7, 10, 87.0
+IITB013, Sneha Reddy, 19001013, B.Tech Mechanical, 2023, 9.0, 10, 90.0
+IITB014, Rahul Nair, 19001014, B.Tech Civil, 2023, 8.4, 10, 84.0
+IITB015, Pooja Sharma, 19001015, M.Tech Data Science, 2023, 9.5, 10, 95.0
+IITD001, Shaurya Malhotra, 2023CS101, B.Tech Computer Science, 2023, 9.5, 10, 95.0
+IITD002, Atharv Bhatia, 2023EE101, B.Tech Electrical, 2023, 9.1, 10, 91.0
+IITD003, Dhruv Khanna, 2023ME101, B.Tech Mechanical, 2023, 8.7, 10, 87.0
+IITD004, Kabir Kapoor, 2023CH101, B.Tech Chemical, 2023, 8.9, 10, 89.0
+IITD005, Ritvik Mehra, 2023CE101, B.Tech Civil, 2023, 8.4, 10, 84.0
+IITD006, Meera Singh, 2023CS106, B.Tech Computer Science, 2023, 9.2, 10, 92.0
+IITD007, Varun Chopra, 2023EE107, B.Tech Electrical, 2023, 8.8, 10, 88.0
+IITD008, Neha Kapoor, 2023ME108, B.Tech Mechanical, 2023, 8.6, 10, 86.0
+IITD009, Riya Jain, 2023CH109, B.Tech Chemical, 2023, 8.7, 10, 87.0
+IITD010, Aryan Malhotra, 2023CE110, B.Tech Civil, 2023, 8.3, 10, 83.0
+DU001, Ananya Agarwal, DU2021001, B.Com Hons, 2024, 850, 1000, 85.0
+DU002, Diya Singhania, DU2021002, BA Hons Economics, 2024, 880, 1000, 88.0
+DU003, Myra Saxena, DU2021003, B.Sc Hons Physics, 2024, 910, 1000, 91.0
+DU004, Aadhya Jain, DU2021004, BA Hons English, 2024, 820, 1000, 82.0
+DU005, Kiara Sharma, DU2021005, B.Sc Hons Mathematics, 2024, 940, 1000, 94.0
+DU006, Pranav Gupta, DU2021006, B.Com Hons, 2024, 860, 1000, 86.0
+DU007, Sanya Mehta, DU2021007, BA Hons Economics, 2024, 890, 1000, 89.0
+DU008, Rohan Verma, DU2021008, B.Sc Hons Physics, 2024, 900, 1000, 90.0
+DU009, Simran Kaur, DU2021009, BA Hons English, 2024, 830, 1000, 83.0
+DU010, Aarav Singh, DU2021010, B.Sc Hons Mathematics, 2024, 950, 1000, 95.0
+JNU001, Sana Khan, JNU2021001, MA International Relations, 2023, 7.8, 9, 86.6
+JNU002, Zoya Ali, JNU2021002, MA Sociology, 2023, 7.5, 9, 83.3
+JNU003, Sara Ahmed, JNU2021003, MA History, 2023, 7.2, 9, 80.0
+JNU004, Riya Hassan, JNU2021004, MA Political Science, 2023, 7.9, 9, 87.7
+JNU005, Pari Siddiqui, JNU2021005, Ph.D Economics, 2024, 0, 0, 0
+JNU006, Aryan Khan, JNU2021006, MA International Relations, 2023, 8.0, 9, 88.8
+JNU007, Fatima Sheikh, JNU2021007, MA Sociology, 2023, 7.6, 9, 84.4
+JNU008, Rahul Verma, JNU2021008, MA History, 2023, 7.4, 9, 82.2
+JNU009, Ayesha Khan, JNU2021009, MA Political Science, 2023, 8.1, 9, 90.0
+JNU010, Sameer Khan, JNU2021010, Ph.D Economics, 2024, 0, 0, 0
+AU-NOIDA001, Prisha Chaudhary, AU2021001, B.Tech CSE, 2024, 8.8, 10, 88.0
+AU-NOIDA002, Anvi Tyagi, AU2021002, BBA, 2024, 8.5, 10, 85.0
+AU-NOIDA003, Saanvi Singh, AU2021003, MBA, 2024, 8.2, 10, 82.0
+AU-NOIDA004, Aaryahi Yadav, AU2021004, B.Sc Biotechnology, 2024, 9.1, 10, 91.0
+AU-NOIDA005, Navya Chauhan, AU2021005, BA LLB, 2024, 8.0, 10, 80.0
+AU-NOIDA006, Rohan Sharma, AU2021006, B.Tech CSE, 2024, 8.7, 10, 87.0
+AU-NOIDA007, Priya Singh, AU2021007, BBA, 2024, 8.6, 10, 86.0
+AU-NOIDA008, Amit Gupta, AU2021008, MBA, 2024, 8.3, 10, 83.0
+AU-NOIDA009, Sneha Verma, AU2021009, B.Sc Biotechnology, 2024, 9.2, 10, 92.0
+AU-NOIDA010, Rahul Singh, AU2021010, BA LLB, 2024, 8.1, 10, 81.0
+VIT001, Rohit Reddy, 20BCE001, B.Tech CSE, 2024, 8.9, 10, 89.0
+VIT002, Karthik Nair, 20BCE002, B.Tech IT, 2024, 8.7, 10, 87.0
+VIT003, Sanjay Pillai, 20BCE003, B.Tech ECE, 2024, 8.5, 10, 85.0
+VIT004, Vijay Kumar, 20BCE004, B.Tech Mech, 2024, 8.2, 10, 82.0
+VIT005, Ramesh Rajan, 20BCE005, B.Tech Civil, 2024, 8.0, 10, 80.0
+VIT006, Priya Reddy, 20BCE006, B.Tech CSE, 2024, 9.0, 10, 90.0
+VIT007, Suresh Nair, 20BCE007, B.Tech IT, 2024, 8.6, 10, 86.0
+VIT008, Anita Pillai, 20BCE008, B.Tech ECE, 2024, 8.4, 10, 84.0
+VIT009, Mahesh Kumar, 20BCE009, B.Tech Mech, 2024, 8.3, 10, 83.0
+VIT010, Sunita Rajan, 20BCE010, B.Tech Civil, 2024, 8.1, 10, 81.0
+SRM001, Rahul Sharma, RA201100301, B.Tech CSE, 2024, 9.2, 10, 92.0
+SRM002, Priya Patel, RA201100302, B.Tech IT, 2024, 8.8, 10, 88.0
+SRM003, Amit Singh, RA201100303, B.Tech ECE, 2024, 8.5, 10, 85.0
+SRM004, Sneha Gupta, RA201100304, B.Tech BioTech, 2024, 9.0, 10, 90.0
+SRM005, Vikram Malhotra, RA201100305, B.Arch, 2024, 8.1, 10, 81.0
+SRM006, Anjali Sharma, RA201100306, B.Tech CSE, 2024, 9.1, 10, 91.0
+SRM007, Rohit Patel, RA201100307, B.Tech IT, 2024, 8.7, 10, 87.0
+SRM008, Sanya Singh, RA201100308, B.Tech ECE, 2024, 8.6, 10, 86.0
+SRM009, Varun Gupta, RA201100309, B.Tech BioTech, 2024, 8.9, 10, 89.0
+SRM010, Neha Malhotra, RA201100310, B.Arch, 2024, 8.2, 10, 82.0
+BITS001, Aryan Agarwal, 2020A7PS001P, B.E. Computer Science, 2024, 9.6, 10, 96.0
+BITS002, Ishaan Bansal, 2020A7PS002P, B.E. Electrical, 2024, 8.9, 10, 89.0
+BITS003, Kabir Mehta, 2020A7PS003P, B.E. Mechanical, 2024, 8.5, 10, 85.0
+BITS004, Reyansh Jindal, 2020A7PS004P, B.E. Chemical, 2024, 8.2, 10, 82.0
+BITS005, Vihaan Goel, 2020A7PS005P, M.Sc Economics, 2024, 9.1, 10, 91.0
+BITS006, Aarav Agarwal, 2020A7PS006P, B.E. Computer Science, 2024, 9.5, 10, 95.0
+BITS007, Rohan Bansal, 2020A7PS007P, B.E. Electrical, 2024, 8.8, 10, 88.0
+BITS008, Sneha Mehta, 2020A7PS008P, B.E. Mechanical, 2024, 8.6, 10, 86.0
+BITS009, Priya Jindal, 2020A7PS009P, B.E. Chemical, 2024, 8.1, 10, 81.0
+BITS010, Anjali Goel, 2020A7PS010P, M.Sc Economics, 2024, 9.0, 10, 90.0
+IISC001, Aditi Rao, SR-2001, Ph.D Physics, 2024, 0, 0, 0
+IISC002, Anjali Nair, SR-2002, M.Tech CSA, 2023, 9.5, 10, 95.0
+IISC003, Divya Menon, SR-2003, M.Des, 2023, 8.8, 10, 88.0
+IISC004, Gayathri Krishnan, SR-2004, BS Research, 2024, 8.9, 10, 89.0
+IISC005, Kalyani Iyer, SR-2005, Ph.D Chemistry, 2024, 0, 0, 0
+IISC006, Rohini Rao, SR-2006, Ph.D Physics, 2024, 0, 0, 0
+IISC007, Meera Nair, SR-2007, M.Tech CSA, 2023, 9.4, 10, 94.0
+IISC008, Sita Menon, SR-2008, M.Des, 2023, 8.7, 10, 87.0
+IISC009, Lakshmi Krishnan, SR-2009, BS Research, 2024, 8.8, 10, 88.0
+IISC010, Parvati Iyer, SR-2010, Ph.D Chemistry, 2024, 0, 0, 0
+MAHE001, Varun Shetty, 190901001, MBBS, 2024, 75, 100, 75.0
+MAHE002, Rohan Pai, 190901002, BDS, 2024, 78, 100, 78.0
+MAHE003, Sanjay Prabhu, 190901003, B.Pharm, 2024, 82, 100, 82.0
+MAHE004, Ganesh Rao, 190901004, B.Arch, 2024, 70, 100, 70.0
+MAHE005, Krishna Bhat, 190901005, BBA, 2024, 85, 100, 85.0
+MAHE006, Suresh Shetty, 190901006, MBBS, 2024, 76, 100, 76.0
+MAHE007, Ramesh Pai, 190901007, BDS, 2024, 79, 100, 79.0
+MAHE008, Mahesh Prabhu, 190901008, B.Pharm, 2024, 81, 100, 81.0
+MAHE009, Dinesh Rao, 190901009, B.Arch, 2024, 71, 100, 71.0
+MAHE010, Vishnu Bhat, 190901010, BBA, 2024, 86, 100, 86.0
+LPU001, Mandeep Singh, 11901001, B.Tech CSE, 2024, 8.5, 10, 85.0
+LPU002, Gurpreet Kaur, 11901002, MBA, 2024, 8.2, 10, 82.0
+LPU003, Harpreet Singh, 11901003, B.Sc Agriculture, 2024, 8.8, 10, 88.0
+LPU004, Simranjeet Kaur, 11901004, B.Com, 2024, 8.0, 10, 80.0
+LPU005, Manpreet Singh, 11901005, BHM, 2024, 7.8, 10, 78.0
+LPU006, Sukhwinder Singh, 11901006, B.Tech CSE, 2024, 8.4, 10, 84.0
+LPU007, Manjeet Kaur, 11901007, MBA, 2024, 8.1, 10, 81.0
+LPU008, Balwinder Singh, 11901008, B.Sc Agriculture, 2024, 8.7, 10, 87.0
+LPU009, Kiranjeet Kaur, 11901009, B.Com, 2024, 7.9, 10, 79.0
+LPU010, Rajwinder Singh, 11901010, BHM, 2024, 7.7, 10, 77.0
+CHAND001, Amit Kumar, 18BCS1001, B.E. CSE, 2024, 8.4, 10, 84.0
+CHAND002, Sumit Sharma, 18BCS1002, BCA, 2024, 8.1, 10, 81.0
+CHAND003, Ravi Verma, 18BCS1003, BBA, 2024, 7.9, 10, 79.0
+CHAND004, Ajay Singh, 18BCS1004, MBA, 2024, 8.3, 10, 83.0
+CHAND005, Vijay Gupta, 18BCS1005, B.Sc Animation, 2024, 8.6, 10, 86.0
+CHAND006, Rahul Kumar, 18BCS1006, B.E. CSE, 2024, 8.3, 10, 83.0
+CHAND007, Rohit Sharma, 18BCS1007, BCA, 2024, 8.0, 10, 80.0
+CHAND008, Suresh Verma, 18BCS1008, BBA, 2024, 7.8, 10, 78.0
+CHAND009, Mahesh Singh, 18BCS1009, MBA, 2024, 8.2, 10, 82.0
+CHAND010, Dinesh Gupta, 18BCS1010, B.Sc Animation, 2024, 8.5, 10, 85.0
+MU001, Rajesh Patil, MU2021001, B.Com, 2023, 75, 100, 75.0
+MU002, Sunita Deshmukh, MU2021002, BA, 2023, 72, 100, 72.0
+MU003, Vinod Jhalani, MU2021003, B.Sc IT, 2023, 85, 100, 85.0
+MU004, Rekha Shinde, MU2021004, MMS, 2023, 78, 100, 78.0
+MU005, Suresh Pawar, MU2021005, LLB, 2023, 65, 100, 65.0
+MU006, Ramesh Patil, MU2021006, B.Com, 2023, 76, 100, 76.0
+MU007, Sangeeta Deshmukh, MU2021007, BA, 2023, 73, 100, 73.0
+MU008, Vivek Jhalani, MU2021008, B.Sc IT, 2023, 86, 100, 86.0
+MU009, Priya Shinde, MU2021009, MMS, 2023, 79, 100, 79.0
+MU010, Deepak Pawar, MU2021010, LLB, 2023, 66, 100, 66.0
+SPPU001, Ganesh Gaikwad, SPPU2021001, BE Computer, 2023, 8.8, 10, 88.0
+SPPU002, Meena Joshi, SPPU2021002, BE IT, 2023, 8.6, 10, 86.0
+SPPU003, Prakash Kulkarni, SPPU2021003, BE Civil, 2023, 8.2, 10, 82.0
+SPPU004, Jyoti Deshpande, SPPU2021004, BE E&TC, 2023, 8.4, 10, 84.0
+SPPU005, Sachin Tendulkar, SPPU2021005, MBA, 2023, 7.5, 10, 75.0
+SPPU006, Ramesh Gaikwad, SPPU2021006, BE Computer, 2023, 8.7, 10, 87.0
+SPPU007, Sangeeta Joshi, SPPU2021007, BE IT, 2023, 8.5, 10, 85.0
+SPPU008, Vivek Kulkarni, SPPU2021008, BE Civil, 2023, 8.1, 10, 81.0
+SPPU009, Priya Deshpande, SPPU2021009, BE E&TC, 2023, 8.3, 10, 83.0
+SPPU010, Rahul Tendulkar, SPPU2021010, MBA, 2023, 7.4, 10, 74.0
+BHU001, Ravi Shankar, BHU2021001, BA Sanskrit, 2023, 85, 100, 85.0
+BHU002, Sita Devi, BHU2021002, MA Hindi, 2023, 82, 100, 82.0
+BHU003, Ram Kumar, BHU2021003, B.Sc Agriculture, 2023, 88, 100, 88.0
+BHU004, Lakshman Singh, BHU2021004, B.Tech Ceramic, 2023, 78, 100, 78.0
+BHU005, Urmila Yadav, BHU2021005, IMS MBBS, 2023, 68, 100, 68.0
+BHU006, Ramesh Shankar, BHU2021006, BA Sanskrit, 2023, 86, 100, 86.0
+BHU007, Gita Devi, BHU2021007, MA Hindi, 2023, 83, 100, 83.0
+BHU008, Shyam Kumar, BHU2021008, B.Sc Agriculture, 2023, 89, 100, 89.0
+BHU009, Bharat Singh, BHU2021009, B.Tech Ceramic, 2023, 79, 100, 79.0
+BHU010, Radhika Yadav, BHU2021010, IMS MBBS, 2023, 69, 100, 69.0

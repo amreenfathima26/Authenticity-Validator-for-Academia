@@ -1,0 +1,500 @@
+STAN20241000, John Reddy, R203000, M.Tech Chemistry, 2022, 71, 100, 71.0
+NUS20241001, Richard Iyer, R203001, M.Sc Electrical Engineering, 2021, 72, 100, 72.0
+UMEL20241002, Michael Martinez, R203002, M.Tech Computer Science, 2024, 77, 100, 77.0
+UTOR20241003, Patricia Patel, R203003, M.Tech Computer Science, 2020, 97, 100, 97.0
+STAN20241004, Robert Kumar, R203004, M.Sc Computer Science, 2020, 69, 100, 69.0
+CAM20241005, Charles Singh, R203005, M.A Mechanical Engineering, 2022, 60, 100, 60.0
+CAM20241006, Diya Williams, R203006, M.Tech Data Science, 2023, 74, 100, 74.0
+UTOR20241007, Patricia Singh, R203007, M.Sc Psychology, 2022, 91, 100, 91.0
+ETH20241008, Sarah Joshi, R203008, B.Sc Chemistry, 2023, 85, 100, 85.0
+OXF20241009, Myra Gupta, R203009, B.Sc Mechanical Engineering, 2020, 68, 100, 68.0
+UTOR20241010, Linda Sharma, R203010, M.Sc Economics, 2023, 95, 100, 95.0
+UTOR20241011, Myra Johnson, R203011, M.Sc Data Science, 2023, 97, 100, 97.0
+MIT20241012, Michael Rodriguez, R203012, M.A Physics, 2023, 75, 100, 75.0
+TSING20241013, Sarah Martinez, R203013, M.Sc Mathematics, 2020, 87, 100, 87.0
+OXF20241014, Jessica Reddy, R203014, Ph.D Mathematics, 2021, 96, 100, 96.0
+NUS20241015, Elizabeth Jones, R203015, M.Tech Data Science, 2023, 86, 100, 86.0
+UTOR20241016, Charles Smith, R203016, B.Sc Civil Engineering, 2022, 96, 100, 96.0
+OXF20241017, Ananya Reddy, R203017, M.A Electrical Engineering, 2024, 88, 100, 88.0
+UMEL20241018, Mary Mishra, R203018, Ph.D Mathematics, 2020, 83, 100, 83.0
+NUS20241019, Joseph Sharma, R203019, B.Tech Civil Engineering, 2023, 68, 100, 68.0
+TSING20241020, John Smith, R203020, B.Tech Civil Engineering, 2022, 87, 100, 87.0
+OXF20241021, Diya Martinez, R203021, M.Sc Computer Science, 2021, 90, 100, 90.0
+MIT20241022, Zoya Jones, R203022, M.A Economics, 2022, 75, 100, 75.0
+MIT20241023, Richard Sharma, R203023, M.A Computer Science, 2023, 96, 100, 96.0
+UTOR20241024, Jessica Mishra, R203024, B.A Physics, 2022, 60, 100, 60.0
+UMEL20241025, Mary Verma, R203025, Ph.D Chemistry, 2020, 75, 100, 75.0
+UMEL20241026, Thomas Gupta, R203026, M.A Computer Science, 2020, 97, 100, 97.0
+STAN20241027, Mary Miller, R203027, B.A Civil Engineering, 2021, 71, 100, 71.0
+CAM20241028, Mary Verma, R203028, B.Tech Economics, 2022, 76, 100, 76.0
+MIT20241029, Joseph Garcia, R203029, B.Tech Physics, 2020, 62, 100, 62.0
+UTOR20241030, Sarah Miller, R203030, Ph.D Economics, 2020, 61, 100, 61.0
+UMEL20241031, Susan Jones, R203031, M.Sc Civil Engineering, 2021, 83, 100, 83.0
+TSING20241032, Ananya Reddy, R203032, Ph.D Electrical Engineering, 2020, 86, 100, 86.0
+ETH20241033, Sana Singh, R203033, M.A Mathematics, 2020, 69, 100, 69.0
+CAM20241034, Diya Mishra, R203034, Ph.D Civil Engineering, 2020, 61, 100, 61.0
+CAM20241035, Thomas Joshi, R203035, B.Tech Chemistry, 2022, 84, 100, 84.0
+TSING20241036, Thomas Rodriguez, R203036, M.A Physics, 2023, 98, 100, 98.0
+OXF20241037, Mary Kumar, R203037, M.Tech Economics, 2021, 60, 100, 60.0
+CAM20241038, Sai Brown, R203038, Ph.D Civil Engineering, 2024, 61, 100, 61.0
+UMEL20241039, Linda Williams, R203039, M.Sc Data Science, 2023, 85, 100, 85.0
+HARV20241040, Jennifer Rodriguez, R203040, M.A Psychology, 2022, 66, 100, 66.0
+STAN20241041, Thomas Verma, R203041, B.A Mechanical Engineering, 2024, 79, 100, 79.0
+TSING20241042, Karen Rodriguez, R203042, B.Tech Psychology, 2022, 65, 100, 65.0
+UTOR20241043, Patricia Kumar, R203043, B.A Civil Engineering, 2020, 97, 100, 97.0
+OXF20241044, Mary Brown, R203044, Ph.D Mechanical Engineering, 2022, 81, 100, 81.0
+CAM20241045, Richard Jones, R203045, Ph.D Electrical Engineering, 2023, 89, 100, 89.0
+TSING20241046, Aditya Williams, R203046, Ph.D Data Science, 2024, 87, 100, 87.0
+UMEL20241047, Joseph Verma, R203047, B.A Chemistry, 2023, 68, 100, 68.0
+NUS20241048, Richard Iyer, R203048, M.Sc Physics, 2023, 77, 100, 77.0
+OXF20241049, Ananya Sharma, R203049, Ph.D Economics, 2022, 90, 100, 90.0
+UTOR20241050, Sai Kumar, R203050, B.Tech Data Science, 2023, 63, 100, 63.0
+NUS20241051, Karen Davis, R203051, B.Sc Computer Science, 2024, 69, 100, 69.0
+CAM20241052, Jennifer Joshi, R203052, B.Sc Civil Engineering, 2022, 89, 100, 89.0
+OXF20241053, Ananya Sharma, R203053, M.Sc Computer Science, 2023, 80, 100, 80.0
+STAN20241054, William Singh, R203054, B.A Computer Science, 2021, 78, 100, 78.0
+NUS20241055, Robert Reddy, R203055, B.Tech Mathematics, 2021, 67, 100, 67.0
+ETH20241056, David Verma, R203056, B.Sc Computer Science, 2024, 94, 100, 94.0
+UMEL20241057, Aditya Kumar, R203057, B.Tech Economics, 2022, 74, 100, 74.0
+TSING20241058, Sana Kumar, R203058, Ph.D Data Science, 2020, 88, 100, 88.0
+NUS20241059, Myra Rodriguez, R203059, B.A Mechanical Engineering, 2020, 61, 100, 61.0
+MIT20241060, Aditya Garcia, R203060, M.A Electrical Engineering, 2020, 62, 100, 62.0
+CAM20241061, Linda Johnson, R203061, M.Sc Mathematics, 2023, 66, 100, 66.0
+UMEL20241062, Charles Martinez, R203062, M.Sc Data Science, 2020, 84, 100, 84.0
+ETH20241063, Reyansh Patel, R203063, Ph.D Mathematics, 2021, 94, 100, 94.0
+NUS20241064, Thomas Davis, R203064, M.Tech Psychology, 2024, 96, 100, 96.0
+TSING20241065, Ananya Jones, R203065, M.A Mechanical Engineering, 2024, 84, 100, 84.0
+STAN20241066, Thomas Reddy, R203066, M.Tech Chemistry, 2023, 98, 100, 98.0
+STAN20241067, Sana Williams, R203067, B.Tech Mathematics, 2020, 82, 100, 82.0
+STAN20241068, Aarav Jones, R203068, M.A Psychology, 2024, 69, 100, 69.0
+STAN20241069, Jennifer Patel, R203069, B.Sc Electrical Engineering, 2024, 80, 100, 80.0
+HARV20241070, Aarav Mishra, R203070, M.A Mechanical Engineering, 2022, 77, 100, 77.0
+OXF20241071, Jennifer Martinez, R203071, M.Sc Electrical Engineering, 2020, 72, 100, 72.0
+HARV20241072, William Martinez, R203072, M.Sc Mathematics, 2024, 88, 100, 88.0
+UTOR20241073, Zoya Kumar, R203073, B.Tech Civil Engineering, 2024, 95, 100, 95.0
+STAN20241074, Thomas Joshi, R203074, M.A Physics, 2020, 84, 100, 84.0
+OXF20241075, Diya Jones, R203075, M.Tech Economics, 2023, 61, 100, 61.0
+STAN20241076, Linda Gupta, R203076, M.A Economics, 2022, 81, 100, 81.0
+HARV20241077, Reyansh Brown, R203077, M.A Data Science, 2021, 78, 100, 78.0
+ETH20241078, Zoya Rodriguez, R203078, B.A Mechanical Engineering, 2020, 72, 100, 72.0
+OXF20241079, Jennifer Davis, R203079, B.A Data Science, 2022, 74, 100, 74.0
+OXF20241080, William Gupta, R203080, B.Sc Chemistry, 2020, 92, 100, 92.0
+NUS20241081, Linda Sharma, R203081, M.A Computer Science, 2022, 60, 100, 60.0
+MIT20241082, Michael Davis, R203082, Ph.D Psychology, 2022, 94, 100, 94.0
+HARV20241083, Karen Smith, R203083, M.Sc Data Science, 2021, 75, 100, 75.0
+MIT20241084, Sana Garcia, R203084, Ph.D Mechanical Engineering, 2022, 63, 100, 63.0
+HARV20241085, Sarah Jones, R203085, B.A Data Science, 2024, 91, 100, 91.0
+HARV20241086, Reyansh Davis, R203086, M.Sc Data Science, 2024, 74, 100, 74.0
+CAM20241087, James Joshi, R203087, M.A Computer Science, 2020, 66, 100, 66.0
+ETH20241088, Linda Verma, R203088, B.Sc Mathematics, 2024, 69, 100, 69.0
+TSING20241089, Aditya Smith, R203089, B.Tech Civil Engineering, 2022, 71, 100, 71.0
+UTOR20241090, Vihaan Brown, R203090, M.A Economics, 2022, 95, 100, 95.0
+STAN20241091, Sai Singh, R203091, M.Sc Computer Science, 2021, 90, 100, 90.0
+MIT20241092, Robert Miller, R203092, Ph.D Electrical Engineering, 2020, 89, 100, 89.0
+UTOR20241093, Thomas Iyer, R203093, Ph.D Computer Science, 2024, 91, 100, 91.0
+MIT20241094, Diya Patel, R203094, B.Sc Economics, 2020, 78, 100, 78.0
+HARV20241095, Ananya Brown, R203095, B.A Electrical Engineering, 2021, 92, 100, 92.0
+NUS20241096, Jennifer Jones, R203096, B.A Mathematics, 2022, 85, 100, 85.0
+OXF20241097, Susan Miller, R203097, M.Sc Psychology, 2024, 84, 100, 84.0
+ETH20241098, Linda Reddy, R203098, M.Tech Electrical Engineering, 2021, 61, 100, 61.0
+UTOR20241099, James Verma, R203099, M.Sc Mathematics, 2020, 72, 100, 72.0
+TSING20241100, Sarah Johnson, R203100, M.Tech Economics, 2020, 75, 100, 75.0
+OXF20241101, Zoya Kumar, R203101, B.Sc Mathematics, 2022, 95, 100, 95.0
+ETH20241102, Robert Patel, R203102, B.Tech Civil Engineering, 2022, 62, 100, 62.0
+TSING20241103, Sana Miller, R203103, B.Tech Data Science, 2021, 78, 100, 78.0
+TSING20241104, Linda Verma, R203104, M.Tech Psychology, 2023, 97, 100, 97.0
+OXF20241105, Aditya Singh, R203105, M.A Data Science, 2021, 83, 100, 83.0
+TSING20241106, Linda Reddy, R203106, M.Tech Physics, 2024, 81, 100, 81.0
+HARV20241107, Joseph Patel, R203107, B.Tech Civil Engineering, 2020, 84, 100, 84.0
+HARV20241108, Mary Sharma, R203108, B.Tech Computer Science, 2020, 81, 100, 81.0
+UMEL20241109, James Kumar, R203109, Ph.D Data Science, 2022, 60, 100, 60.0
+CAM20241110, Ananya Williams, R203110, Ph.D Psychology, 2023, 92, 100, 92.0
+MIT20241111, Charles Williams, R203111, B.A Electrical Engineering, 2020, 63, 100, 63.0
+TSING20241112, Vihaan Miller, R203112, B.Sc Economics, 2023, 94, 100, 94.0
+OXF20241113, Thomas Joshi, R203113, M.A Psychology, 2024, 70, 100, 70.0
+STAN20241114, Jessica Johnson, R203114, Ph.D Civil Engineering, 2022, 78, 100, 78.0
+STAN20241115, Michael Brown, R203115, B.Sc Chemistry, 2020, 82, 100, 82.0
+NUS20241116, Joseph Johnson, R203116, M.Tech Physics, 2024, 76, 100, 76.0
+CAM20241117, Myra Patel, R203117, M.A Electrical Engineering, 2021, 86, 100, 86.0
+CAM20241118, Aarav Garcia, R203118, Ph.D Economics, 2023, 91, 100, 91.0
+TSING20241119, Aditya Kumar, R203119, B.Sc Chemistry, 2022, 76, 100, 76.0
+HARV20241120, Karen Mishra, R203120, B.Sc Psychology, 2022, 93, 100, 93.0
+TSING20241121, Elizabeth Joshi, R203121, B.A Computer Science, 2024, 83, 100, 83.0
+OXF20241122, Karen Smith, R203122, M.A Mechanical Engineering, 2020, 92, 100, 92.0
+CAM20241123, Myra Patel, R203123, B.Sc Mechanical Engineering, 2022, 71, 100, 71.0
+ETH20241124, Patricia Reddy, R203124, B.A Computer Science, 2022, 83, 100, 83.0
+OXF20241125, Mary Singh, R203125, M.Sc Computer Science, 2022, 97, 100, 97.0
+CAM20241126, Susan Rodriguez, R203126, B.Sc Electrical Engineering, 2020, 90, 100, 90.0
+TSING20241127, Karen Gupta, R203127, B.Sc Computer Science, 2024, 98, 100, 98.0
+HARV20241128, Richard Smith, R203128, Ph.D Computer Science, 2023, 85, 100, 85.0
+STAN20241129, Charles Miller, R203129, B.Sc Data Science, 2020, 89, 100, 89.0
+UMEL20241130, Joseph Rodriguez, R203130, M.Sc Civil Engineering, 2024, 81, 100, 81.0
+ETH20241131, Zoya Davis, R203131, M.Tech Physics, 2020, 65, 100, 65.0
+ETH20241132, Mary Reddy, R203132, B.A Economics, 2020, 75, 100, 75.0
+STAN20241133, Jennifer Smith, R203133, Ph.D Mechanical Engineering, 2023, 74, 100, 74.0
+OXF20241134, Joseph Gupta, R203134, B.A Economics, 2022, 60, 100, 60.0
+NUS20241135, Zoya Jones, R203135, B.A Electrical Engineering, 2020, 99, 100, 99.0
+NUS20241136, Karen Mishra, R203136, M.Sc Mathematics, 2020, 91, 100, 91.0
+ETH20241137, Sarah Davis, R203137, M.Tech Chemistry, 2021, 73, 100, 73.0
+CAM20241138, Jennifer Smith, R203138, M.A Mathematics, 2023, 95, 100, 95.0
+MIT20241139, Linda Patel, R203139, Ph.D Chemistry, 2021, 88, 100, 88.0
+ETH20241140, Sai Rodriguez, R203140, M.A Electrical Engineering, 2023, 72, 100, 72.0
+UTOR20241141, Jessica Sharma, R203141, Ph.D Civil Engineering, 2021, 78, 100, 78.0
+ETH20241142, Susan Sharma, R203142, B.Tech Mathematics, 2020, 64, 100, 64.0
+NUS20241143, Myra Smith, R203143, M.Sc Physics, 2020, 94, 100, 94.0
+NUS20241144, Susan Johnson, R203144, B.Sc Computer Science, 2023, 70, 100, 70.0
+STAN20241145, James Miller, R203145, B.A Chemistry, 2020, 79, 100, 79.0
+UMEL20241146, Elizabeth Sharma, R203146, Ph.D Mathematics, 2020, 99, 100, 99.0
+HARV20241147, Reyansh Patel, R203147, Ph.D Mathematics, 2021, 62, 100, 62.0
+TSING20241148, Robert Reddy, R203148, B.Sc Electrical Engineering, 2024, 90, 100, 90.0
+STAN20241149, Ananya Jones, R203149, B.Tech Civil Engineering, 2020, 81, 100, 81.0
+STAN20241150, Sana Mishra, R203150, B.Sc Mechanical Engineering, 2023, 64, 100, 64.0
+UMEL20241151, Charles Johnson, R203151, M.Tech Mechanical Engineering, 2023, 83, 100, 83.0
+ETH20241152, Charles Rodriguez, R203152, B.A Chemistry, 2022, 93, 100, 93.0
+UTOR20241153, Sai Reddy, R203153, M.A Mathematics, 2021, 88, 100, 88.0
+OXF20241154, Aarav Johnson, R203154, M.Tech Psychology, 2023, 98, 100, 98.0
+UMEL20241155, Thomas Miller, R203155, B.A Physics, 2024, 76, 100, 76.0
+MIT20241156, Myra Garcia, R203156, M.Tech Economics, 2023, 91, 100, 91.0
+CAM20241157, James Miller, R203157, B.Tech Mechanical Engineering, 2020, 85, 100, 85.0
+TSING20241158, Barbara Brown, R203158, B.Tech Civil Engineering, 2021, 94, 100, 94.0
+UMEL20241159, Sarah Patel, R203159, B.A Physics, 2023, 86, 100, 86.0
+CAM20241160, Aditya Smith, R203160, M.Sc Civil Engineering, 2022, 88, 100, 88.0
+NUS20241161, Patricia Reddy, R203161, M.Sc Economics, 2023, 70, 100, 70.0
+OXF20241162, Ananya Patel, R203162, Ph.D Data Science, 2024, 77, 100, 77.0
+TSING20241163, David Reddy, R203163, Ph.D Economics, 2024, 64, 100, 64.0
+ETH20241164, Ananya Patel, R203164, B.Sc Mathematics, 2024, 91, 100, 91.0
+STAN20241165, Ananya Miller, R203165, Ph.D Mathematics, 2024, 92, 100, 92.0
+OXF20241166, Zoya Gupta, R203166, B.Sc Data Science, 2022, 76, 100, 76.0
+TSING20241167, Vihaan Martinez, R203167, B.A Mechanical Engineering, 2023, 71, 100, 71.0
+UMEL20241168, Linda Davis, R203168, M.A Computer Science, 2020, 60, 100, 60.0
+UMEL20241169, Reyansh Sharma, R203169, B.Tech Computer Science, 2024, 63, 100, 63.0
+MIT20241170, Sarah Mishra, R203170, B.Tech Mathematics, 2020, 68, 100, 68.0
+MIT20241171, Charles Williams, R203171, M.A Civil Engineering, 2020, 66, 100, 66.0
+UTOR20241172, William Garcia, R203172, M.Sc Physics, 2020, 63, 100, 63.0
+ETH20241173, Linda Jones, R203173, B.A Mathematics, 2024, 85, 100, 85.0
+TSING20241174, Diya Kumar, R203174, M.A Mechanical Engineering, 2024, 97, 100, 97.0
+UTOR20241175, Elizabeth Singh, R203175, M.Tech Electrical Engineering, 2024, 71, 100, 71.0
+CAM20241176, Charles Gupta, R203176, B.Sc Physics, 2021, 96, 100, 96.0
+CAM20241177, Linda Davis, R203177, M.Tech Mathematics, 2024, 65, 100, 65.0
+HARV20241178, Aditya Gupta, R203178, M.Tech Computer Science, 2022, 77, 100, 77.0
+TSING20241179, William Davis, R203179, B.Sc Physics, 2022, 99, 100, 99.0
+STAN20241180, John Williams, R203180, M.A Civil Engineering, 2020, 72, 100, 72.0
+ETH20241181, Charles Sharma, R203181, Ph.D Data Science, 2020, 89, 100, 89.0
+STAN20241182, Vihaan Kumar, R203182, B.Sc Computer Science, 2022, 85, 100, 85.0
+UMEL20241183, Jennifer Brown, R203183, M.A Mechanical Engineering, 2024, 69, 100, 69.0
+NUS20241184, Elizabeth Garcia, R203184, B.Tech Computer Science, 2021, 60, 100, 60.0
+ETH20241185, Diya Joshi, R203185, M.A Physics, 2020, 89, 100, 89.0
+UMEL20241186, Joseph Jones, R203186, Ph.D Computer Science, 2022, 73, 100, 73.0
+HARV20241187, Sarah Brown, R203187, Ph.D Mathematics, 2021, 91, 100, 91.0
+TSING20241188, Joseph Joshi, R203188, Ph.D Computer Science, 2020, 75, 100, 75.0
+UMEL20241189, Susan Miller, R203189, B.Sc Psychology, 2024, 69, 100, 69.0
+CAM20241190, William Mishra, R203190, B.Sc Data Science, 2021, 77, 100, 77.0
+CAM20241191, Myra Sharma, R203191, Ph.D Economics, 2023, 68, 100, 68.0
+NUS20241192, Diya Rodriguez, R203192, M.Tech Data Science, 2021, 77, 100, 77.0
+ETH20241193, Zoya Kumar, R203193, Ph.D Chemistry, 2020, 66, 100, 66.0
+STAN20241194, Aditya Kumar, R203194, M.Tech Civil Engineering, 2024, 90, 100, 90.0
+TSING20241195, Susan Patel, R203195, B.A Physics, 2024, 65, 100, 65.0
+MIT20241196, Elizabeth Patel, R203196, M.Sc Civil Engineering, 2022, 68, 100, 68.0
+UTOR20241197, Ananya Gupta, R203197, M.Tech Mechanical Engineering, 2022, 91, 100, 91.0
+ETH20241198, Thomas Verma, R203198, M.Tech Physics, 2023, 95, 100, 95.0
+MIT20241199, William Verma, R203199, B.Sc Civil Engineering, 2024, 73, 100, 73.0
+TSING20241200, Michael Iyer, R203200, Ph.D Data Science, 2022, 92, 100, 92.0
+MIT20241201, David Garcia, R203201, M.Tech Psychology, 2022, 90, 100, 90.0
+MIT20241202, Aditya Johnson, R203202, B.Tech Civil Engineering, 2022, 92, 100, 92.0
+TSING20241203, Vihaan Joshi, R203203, M.A Economics, 2021, 77, 100, 77.0
+TSING20241204, Michael Gupta, R203204, M.Sc Psychology, 2020, 66, 100, 66.0
+UMEL20241205, Elizabeth Davis, R203205, B.Tech Physics, 2020, 70, 100, 70.0
+OXF20241206, William Singh, R203206, B.Tech Economics, 2020, 65, 100, 65.0
+ETH20241207, Elizabeth Davis, R203207, Ph.D Data Science, 2021, 85, 100, 85.0
+UMEL20241208, Karen Verma, R203208, M.Tech Electrical Engineering, 2022, 84, 100, 84.0
+OXF20241209, Michael Joshi, R203209, M.A Economics, 2020, 75, 100, 75.0
+OXF20241210, John Brown, R203210, M.A Chemistry, 2020, 72, 100, 72.0
+CAM20241211, Vihaan Singh, R203211, M.A Mechanical Engineering, 2024, 84, 100, 84.0
+ETH20241212, Jennifer Gupta, R203212, B.A Mechanical Engineering, 2020, 82, 100, 82.0
+UTOR20241213, Reyansh Kumar, R203213, Ph.D Economics, 2022, 89, 100, 89.0
+TSING20241214, Patricia Gupta, R203214, M.Sc Physics, 2021, 71, 100, 71.0
+CAM20241215, Susan Verma, R203215, M.A Computer Science, 2021, 62, 100, 62.0
+TSING20241216, Aarav Garcia, R203216, M.Tech Data Science, 2021, 84, 100, 84.0
+NUS20241217, Sana Joshi, R203217, B.Tech Civil Engineering, 2023, 62, 100, 62.0
+OXF20241218, Barbara Brown, R203218, B.A Economics, 2022, 77, 100, 77.0
+UMEL20241219, Elizabeth Martinez, R203219, B.Tech Physics, 2024, 84, 100, 84.0
+HARV20241220, David Sharma, R203220, B.A Civil Engineering, 2024, 70, 100, 70.0
+TSING20241221, Charles Garcia, R203221, M.Sc Chemistry, 2021, 93, 100, 93.0
+UMEL20241222, Susan Gupta, R203222, B.A Mechanical Engineering, 2024, 95, 100, 95.0
+OXF20241223, Sana Verma, R203223, M.Sc Mathematics, 2020, 94, 100, 94.0
+UMEL20241224, Susan Mishra, R203224, B.Tech Electrical Engineering, 2023, 98, 100, 98.0
+STAN20241225, Barbara Mishra, R203225, B.A Computer Science, 2021, 63, 100, 63.0
+OXF20241226, Charles Rodriguez, R203226, B.Sc Mathematics, 2023, 86, 100, 86.0
+UTOR20241227, Robert Brown, R203227, M.Sc Computer Science, 2022, 69, 100, 69.0
+OXF20241228, Barbara Gupta, R203228, M.Tech Psychology, 2023, 99, 100, 99.0
+CAM20241229, Thomas Davis, R203229, M.A Physics, 2023, 92, 100, 92.0
+UMEL20241230, Patricia Gupta, R203230, B.A Data Science, 2024, 65, 100, 65.0
+ETH20241231, Reyansh Garcia, R203231, M.A Chemistry, 2022, 81, 100, 81.0
+OXF20241232, Sai Patel, R203232, B.Tech Chemistry, 2023, 94, 100, 94.0
+NUS20241233, Michael Mishra, R203233, Ph.D Mathematics, 2022, 79, 100, 79.0
+OXF20241234, Patricia Jones, R203234, M.A Computer Science, 2020, 72, 100, 72.0
+OXF20241235, Sana Mishra, R203235, M.Sc Psychology, 2023, 99, 100, 99.0
+TSING20241236, William Johnson, R203236, M.Sc Psychology, 2024, 66, 100, 66.0
+OXF20241237, Sai Smith, R203237, B.A Chemistry, 2024, 87, 100, 87.0
+CAM20241238, Aditya Joshi, R203238, B.Sc Economics, 2022, 60, 100, 60.0
+CAM20241239, William Smith, R203239, B.Sc Physics, 2020, 92, 100, 92.0
+NUS20241240, Myra Brown, R203240, M.A Economics, 2020, 64, 100, 64.0
+UTOR20241241, Myra Verma, R203241, M.Tech Psychology, 2021, 74, 100, 74.0
+CAM20241242, Sai Iyer, R203242, M.A Electrical Engineering, 2020, 95, 100, 95.0
+HARV20241243, Richard Martinez, R203243, M.Sc Physics, 2024, 87, 100, 87.0
+HARV20241244, Aarav Miller, R203244, B.Sc Data Science, 2022, 82, 100, 82.0
+UTOR20241245, Aarav Patel, R203245, Ph.D Mechanical Engineering, 2023, 67, 100, 67.0
+TSING20241246, Aarav Verma, R203246, M.A Electrical Engineering, 2021, 68, 100, 68.0
+NUS20241247, Robert Davis, R203247, B.Tech Psychology, 2024, 99, 100, 99.0
+NUS20241248, Vihaan Brown, R203248, B.Tech Electrical Engineering, 2024, 74, 100, 74.0
+UTOR20241249, Sana Garcia, R203249, M.Tech Chemistry, 2020, 85, 100, 85.0
+HARV20241250, William Williams, R203250, M.Tech Physics, 2023, 94, 100, 94.0
+HARV20241251, Aditya Martinez, R203251, M.Sc Physics, 2022, 70, 100, 70.0
+TSING20241252, Vihaan Davis, R203252, M.Tech Electrical Engineering, 2022, 68, 100, 68.0
+STAN20241253, Aditya Gupta, R203253, M.Sc Electrical Engineering, 2024, 61, 100, 61.0
+OXF20241254, Vihaan Martinez, R203254, M.A Data Science, 2021, 76, 100, 76.0
+MIT20241255, David Kumar, R203255, M.A Mathematics, 2023, 77, 100, 77.0
+UTOR20241256, Ananya Iyer, R203256, M.Tech Computer Science, 2020, 67, 100, 67.0
+CAM20241257, Susan Smith, R203257, M.Sc Economics, 2020, 98, 100, 98.0
+TSING20241258, Sai Smith, R203258, B.Tech Data Science, 2023, 61, 100, 61.0
+TSING20241259, Robert Kumar, R203259, M.Sc Psychology, 2021, 83, 100, 83.0
+OXF20241260, Charles Sharma, R203260, M.A Computer Science, 2022, 62, 100, 62.0
+HARV20241261, Robert Verma, R203261, Ph.D Physics, 2020, 76, 100, 76.0
+NUS20241262, Robert Verma, R203262, M.A Physics, 2021, 84, 100, 84.0
+TSING20241263, Robert Kumar, R203263, M.Sc Mechanical Engineering, 2023, 80, 100, 80.0
+HARV20241264, Robert Joshi, R203264, B.Tech Civil Engineering, 2023, 72, 100, 72.0
+STAN20241265, Aarav Davis, R203265, M.A Physics, 2020, 69, 100, 69.0
+OXF20241266, Sana Gupta, R203266, Ph.D Economics, 2024, 80, 100, 80.0
+MIT20241267, Karen Rodriguez, R203267, M.A Computer Science, 2024, 62, 100, 62.0
+ETH20241268, Susan Gupta, R203268, M.Sc Data Science, 2022, 98, 100, 98.0
+MIT20241269, Elizabeth Verma, R203269, B.A Economics, 2020, 98, 100, 98.0
+MIT20241270, Elizabeth Miller, R203270, B.A Chemistry, 2024, 63, 100, 63.0
+UTOR20241271, Aditya Garcia, R203271, M.A Physics, 2024, 85, 100, 85.0
+TSING20241272, Linda Jones, R203272, Ph.D Economics, 2023, 79, 100, 79.0
+UTOR20241273, Mary Williams, R203273, M.Sc Physics, 2023, 82, 100, 82.0
+CAM20241274, Barbara Smith, R203274, B.Sc Physics, 2021, 83, 100, 83.0
+UTOR20241275, Robert Miller, R203275, B.Tech Economics, 2023, 81, 100, 81.0
+STAN20241276, Barbara Patel, R203276, Ph.D Mathematics, 2024, 73, 100, 73.0
+OXF20241277, Aarav Jones, R203277, M.A Physics, 2022, 93, 100, 93.0
+UMEL20241278, Diya Iyer, R203278, B.Tech Psychology, 2023, 95, 100, 95.0
+TSING20241279, Barbara Johnson, R203279, B.A Psychology, 2022, 71, 100, 71.0
+UTOR20241280, William Miller, R203280, M.A Computer Science, 2022, 99, 100, 99.0
+TSING20241281, Mary Garcia, R203281, B.Sc Psychology, 2022, 75, 100, 75.0
+HARV20241282, Aditya Reddy, R203282, M.Sc Mechanical Engineering, 2021, 79, 100, 79.0
+UTOR20241283, Ananya Martinez, R203283, Ph.D Economics, 2020, 85, 100, 85.0
+NUS20241284, Robert Davis, R203284, M.Sc Civil Engineering, 2023, 80, 100, 80.0
+HARV20241285, Zoya Mishra, R203285, Ph.D Electrical Engineering, 2020, 71, 100, 71.0
+NUS20241286, Jennifer Sharma, R203286, B.A Mathematics, 2020, 98, 100, 98.0
+TSING20241287, Jennifer Joshi, R203287, B.Tech Computer Science, 2020, 67, 100, 67.0
+UTOR20241288, Susan Smith, R203288, B.Tech Physics, 2021, 71, 100, 71.0
+HARV20241289, David Johnson, R203289, M.A Computer Science, 2021, 93, 100, 93.0
+NUS20241290, Elizabeth Patel, R203290, M.Sc Physics, 2021, 67, 100, 67.0
+TSING20241291, Elizabeth Mishra, R203291, B.Sc Chemistry, 2023, 82, 100, 82.0
+HARV20241292, Sarah Martinez, R203292, B.Sc Electrical Engineering, 2022, 78, 100, 78.0
+HARV20241293, David Gupta, R203293, B.Tech Electrical Engineering, 2024, 90, 100, 90.0
+TSING20241294, Thomas Iyer, R203294, B.A Data Science, 2023, 85, 100, 85.0
+NUS20241295, Karen Williams, R203295, B.Sc Mathematics, 2021, 67, 100, 67.0
+STAN20241296, Patricia Davis, R203296, B.Sc Mechanical Engineering, 2024, 62, 100, 62.0
+HARV20241297, Barbara Davis, R203297, B.A Physics, 2024, 68, 100, 68.0
+TSING20241298, Linda Joshi, R203298, M.A Computer Science, 2021, 78, 100, 78.0
+UTOR20241299, Diya Gupta, R203299, M.A Electrical Engineering, 2022, 89, 100, 89.0
+ETH20241300, Vihaan Patel, R203300, B.A Data Science, 2022, 69, 100, 69.0
+OXF20241301, Linda Brown, R203301, M.Sc Computer Science, 2020, 81, 100, 81.0
+UMEL20241302, Susan Reddy, R203302, M.Sc Computer Science, 2021, 97, 100, 97.0
+UMEL20241303, Vihaan Singh, R203303, Ph.D Economics, 2020, 70, 100, 70.0
+HARV20241304, Patricia Miller, R203304, M.Sc Civil Engineering, 2024, 91, 100, 91.0
+OXF20241305, Charles Brown, R203305, M.A Physics, 2024, 85, 100, 85.0
+OXF20241306, Sana Sharma, R203306, B.Sc Civil Engineering, 2020, 78, 100, 78.0
+NUS20241307, Richard Gupta, R203307, M.A Civil Engineering, 2021, 82, 100, 82.0
+TSING20241308, William Smith, R203308, Ph.D Electrical Engineering, 2022, 98, 100, 98.0
+TSING20241309, Charles Jones, R203309, M.A Data Science, 2023, 99, 100, 99.0
+MIT20241310, Richard Davis, R203310, B.A Physics, 2024, 98, 100, 98.0
+ETH20241311, David Verma, R203311, M.Tech Chemistry, 2022, 90, 100, 90.0
+OXF20241312, Zoya Brown, R203312, B.A Mechanical Engineering, 2024, 87, 100, 87.0
+MIT20241313, Mary Martinez, R203313, B.A Economics, 2023, 85, 100, 85.0
+STAN20241314, Patricia Gupta, R203314, M.Tech Electrical Engineering, 2022, 76, 100, 76.0
+UTOR20241315, Sai Brown, R203315, M.A Physics, 2023, 94, 100, 94.0
+NUS20241316, David Reddy, R203316, M.A Electrical Engineering, 2024, 97, 100, 97.0
+OXF20241317, Elizabeth Martinez, R203317, M.Sc Mathematics, 2021, 80, 100, 80.0
+STAN20241318, John Kumar, R203318, M.Sc Psychology, 2024, 97, 100, 97.0
+MIT20241319, Aditya Smith, R203319, M.Sc Electrical Engineering, 2021, 95, 100, 95.0
+CAM20241320, Aarav Gupta, R203320, B.A Mathematics, 2022, 71, 100, 71.0
+NUS20241321, Sai Rodriguez, R203321, B.Sc Physics, 2024, 87, 100, 87.0
+TSING20241322, Myra Reddy, R203322, B.Tech Physics, 2024, 83, 100, 83.0
+ETH20241323, Charles Brown, R203323, M.Sc Data Science, 2023, 94, 100, 94.0
+CAM20241324, Jessica Verma, R203324, Ph.D Mechanical Engineering, 2023, 65, 100, 65.0
+NUS20241325, Patricia Joshi, R203325, M.Sc Physics, 2024, 71, 100, 71.0
+MIT20241326, Karen Rodriguez, R203326, M.Tech Data Science, 2020, 89, 100, 89.0
+UTOR20241327, Reyansh Smith, R203327, B.Sc Mechanical Engineering, 2020, 86, 100, 86.0
+STAN20241328, James Johnson, R203328, M.Tech Physics, 2020, 96, 100, 96.0
+UTOR20241329, Charles Joshi, R203329, M.Tech Civil Engineering, 2022, 88, 100, 88.0
+NUS20241330, Robert Jones, R203330, M.Sc Mechanical Engineering, 2021, 87, 100, 87.0
+NUS20241331, Aditya Garcia, R203331, M.Sc Chemistry, 2020, 71, 100, 71.0
+TSING20241332, Karen Miller, R203332, M.Tech Physics, 2022, 66, 100, 66.0
+UMEL20241333, John Miller, R203333, B.A Physics, 2024, 66, 100, 66.0
+HARV20241334, Barbara Mishra, R203334, M.A Civil Engineering, 2022, 61, 100, 61.0
+TSING20241335, Zoya Williams, R203335, M.A Mechanical Engineering, 2024, 91, 100, 91.0
+UTOR20241336, Zoya Sharma, R203336, M.Tech Civil Engineering, 2024, 70, 100, 70.0
+UTOR20241337, Mary Martinez, R203337, M.A Mathematics, 2022, 86, 100, 86.0
+CAM20241338, Charles Singh, R203338, B.Sc Mathematics, 2023, 96, 100, 96.0
+MIT20241339, Jessica Johnson, R203339, B.Tech Psychology, 2024, 82, 100, 82.0
+MIT20241340, Ananya Gupta, R203340, M.Tech Computer Science, 2024, 99, 100, 99.0
+UTOR20241341, Myra Gupta, R203341, M.Tech Civil Engineering, 2024, 98, 100, 98.0
+UTOR20241342, David Williams, R203342, M.A Electrical Engineering, 2021, 92, 100, 92.0
+HARV20241343, Michael Miller, R203343, B.A Data Science, 2022, 94, 100, 94.0
+UMEL20241344, Sana Iyer, R203344, B.Sc Electrical Engineering, 2022, 92, 100, 92.0
+TSING20241345, Susan Mishra, R203345, M.A Mechanical Engineering, 2023, 97, 100, 97.0
+HARV20241346, Sana Mishra, R203346, M.A Civil Engineering, 2023, 93, 100, 93.0
+STAN20241347, Aarav Davis, R203347, B.A Electrical Engineering, 2020, 64, 100, 64.0
+MIT20241348, Charles Williams, R203348, B.Tech Chemistry, 2024, 61, 100, 61.0
+UTOR20241349, Jessica Martinez, R203349, B.A Civil Engineering, 2021, 71, 100, 71.0
+OXF20241350, Myra Kumar, R203350, M.Sc Civil Engineering, 2024, 90, 100, 90.0
+STAN20241351, James Rodriguez, R203351, B.Tech Economics, 2022, 94, 100, 94.0
+UTOR20241352, Jennifer Garcia, R203352, M.Tech Chemistry, 2022, 92, 100, 92.0
+ETH20241353, Sana Johnson, R203353, M.A Economics, 2021, 98, 100, 98.0
+UMEL20241354, Jessica Davis, R203354, Ph.D Civil Engineering, 2022, 78, 100, 78.0
+UMEL20241355, Michael Patel, R203355, Ph.D Mathematics, 2021, 65, 100, 65.0
+CAM20241356, Myra Gupta, R203356, M.A Computer Science, 2024, 90, 100, 90.0
+CAM20241357, David Johnson, R203357, M.A Chemistry, 2022, 74, 100, 74.0
+ETH20241358, Sana Reddy, R203358, B.Sc Electrical Engineering, 2020, 73, 100, 73.0
+UMEL20241359, James Jones, R203359, M.Tech Mathematics, 2024, 82, 100, 82.0
+TSING20241360, Barbara Joshi, R203360, B.Sc Psychology, 2022, 96, 100, 96.0
+NUS20241361, Ananya Brown, R203361, B.Tech Mechanical Engineering, 2021, 83, 100, 83.0
+UMEL20241362, David Johnson, R203362, Ph.D Computer Science, 2022, 97, 100, 97.0
+OXF20241363, Karen Johnson, R203363, M.Sc Mechanical Engineering, 2022, 97, 100, 97.0
+UTOR20241364, Aditya Patel, R203364, M.Tech Electrical Engineering, 2021, 98, 100, 98.0
+NUS20241365, Richard Davis, R203365, Ph.D Electrical Engineering, 2022, 98, 100, 98.0
+OXF20241366, Richard Joshi, R203366, B.Sc Economics, 2023, 85, 100, 85.0
+CAM20241367, Michael Kumar, R203367, B.Sc Data Science, 2023, 69, 100, 69.0
+TSING20241368, Robert Johnson, R203368, M.Tech Psychology, 2024, 69, 100, 69.0
+TSING20241369, Thomas Jones, R203369, B.Sc Electrical Engineering, 2020, 76, 100, 76.0
+OXF20241370, David Kumar, R203370, B.Sc Physics, 2022, 66, 100, 66.0
+TSING20241371, Patricia Gupta, R203371, M.Tech Psychology, 2022, 83, 100, 83.0
+TSING20241372, Myra Singh, R203372, Ph.D Physics, 2022, 68, 100, 68.0
+HARV20241373, John Jones, R203373, M.A Mathematics, 2024, 92, 100, 92.0
+CAM20241374, Thomas Singh, R203374, B.A Mathematics, 2021, 79, 100, 79.0
+HARV20241375, Richard Williams, R203375, M.Sc Computer Science, 2020, 60, 100, 60.0
+OXF20241376, Myra Mishra, R203376, Ph.D Chemistry, 2023, 71, 100, 71.0
+TSING20241377, Thomas Joshi, R203377, B.A Civil Engineering, 2023, 87, 100, 87.0
+ETH20241378, Michael Martinez, R203378, B.A Physics, 2021, 70, 100, 70.0
+CAM20241379, Patricia Mishra, R203379, Ph.D Chemistry, 2021, 65, 100, 65.0
+MIT20241380, Aditya Joshi, R203380, M.Sc Economics, 2022, 87, 100, 87.0
+STAN20241381, Jennifer Johnson, R203381, B.Sc Data Science, 2024, 68, 100, 68.0
+CAM20241382, Robert Verma, R203382, M.Sc Chemistry, 2024, 93, 100, 93.0
+UTOR20241383, Karen Gupta, R203383, M.A Civil Engineering, 2021, 74, 100, 74.0
+STAN20241384, Susan Joshi, R203384, B.A Mechanical Engineering, 2023, 99, 100, 99.0
+UTOR20241385, Ananya Williams, R203385, B.A Mathematics, 2024, 87, 100, 87.0
+UMEL20241386, Karen Sharma, R203386, Ph.D Computer Science, 2022, 73, 100, 73.0
+OXF20241387, Diya Martinez, R203387, M.Tech Computer Science, 2022, 66, 100, 66.0
+UTOR20241388, Susan Singh, R203388, M.Tech Physics, 2022, 92, 100, 92.0
+TSING20241389, Robert Singh, R203389, Ph.D Electrical Engineering, 2024, 94, 100, 94.0
+CAM20241390, Charles Joshi, R203390, M.A Mathematics, 2023, 80, 100, 80.0
+UMEL20241391, James Garcia, R203391, B.Sc Electrical Engineering, 2020, 71, 100, 71.0
+STAN20241392, Zoya Martinez, R203392, M.Tech Economics, 2020, 60, 100, 60.0
+UMEL20241393, Reyansh Mishra, R203393, Ph.D Data Science, 2021, 70, 100, 70.0
+ETH20241394, Myra Smith, R203394, B.A Economics, 2022, 87, 100, 87.0
+NUS20241395, Susan Williams, R203395, M.A Civil Engineering, 2020, 94, 100, 94.0
+CAM20241396, Linda Johnson, R203396, B.Tech Psychology, 2024, 92, 100, 92.0
+MIT20241397, Sai Verma, R203397, B.Tech Physics, 2023, 95, 100, 95.0
+TSING20241398, Myra Garcia, R203398, B.A Civil Engineering, 2024, 65, 100, 65.0
+NUS20241399, Sana Johnson, R203399, M.Tech Data Science, 2024, 90, 100, 90.0
+UTOR20241400, Richard Davis, R203400, B.Tech Civil Engineering, 2022, 63, 100, 63.0
+UTOR20241401, Linda Mishra, R203401, B.Sc Civil Engineering, 2022, 77, 100, 77.0
+OXF20241402, Thomas Garcia, R203402, M.Sc Physics, 2020, 83, 100, 83.0
+STAN20241403, Diya Verma, R203403, Ph.D Mechanical Engineering, 2023, 88, 100, 88.0
+NUS20241404, Barbara Davis, R203404, B.A Economics, 2022, 63, 100, 63.0
+MIT20241405, Robert Brown, R203405, M.Tech Economics, 2020, 67, 100, 67.0
+NUS20241406, Susan Miller, R203406, M.A Computer Science, 2023, 61, 100, 61.0
+STAN20241407, Richard Miller, R203407, M.Tech Mechanical Engineering, 2023, 63, 100, 63.0
+MIT20241408, Reyansh Miller, R203408, B.A Computer Science, 2024, 70, 100, 70.0
+MIT20241409, Susan Davis, R203409, M.Sc Electrical Engineering, 2022, 85, 100, 85.0
+OXF20241410, James Jones, R203410, B.Sc Mechanical Engineering, 2021, 84, 100, 84.0
+STAN20241411, Sarah Iyer, R203411, M.A Data Science, 2020, 63, 100, 63.0
+TSING20241412, Ananya Jones, R203412, M.Sc Data Science, 2021, 82, 100, 82.0
+UTOR20241413, Charles Gupta, R203413, B.Tech Chemistry, 2020, 66, 100, 66.0
+NUS20241414, Michael Brown, R203414, M.A Electrical Engineering, 2020, 60, 100, 60.0
+HARV20241415, Jennifer Smith, R203415, B.Tech Computer Science, 2020, 88, 100, 88.0
+NUS20241416, Sai Brown, R203416, M.A Psychology, 2020, 79, 100, 79.0
+UTOR20241417, Michael Brown, R203417, Ph.D Physics, 2024, 72, 100, 72.0
+ETH20241418, Linda Reddy, R203418, B.Sc Civil Engineering, 2021, 86, 100, 86.0
+STAN20241419, Richard Johnson, R203419, M.A Physics, 2024, 86, 100, 86.0
+UMEL20241420, Jessica Mishra, R203420, Ph.D Psychology, 2023, 96, 100, 96.0
+HARV20241421, Reyansh Williams, R203421, M.Tech Economics, 2020, 90, 100, 90.0
+CAM20241422, Elizabeth Johnson, R203422, Ph.D Computer Science, 2020, 66, 100, 66.0
+STAN20241423, Elizabeth Reddy, R203423, M.Sc Mathematics, 2024, 73, 100, 73.0
+NUS20241424, Thomas Brown, R203424, M.Tech Economics, 2022, 84, 100, 84.0
+UMEL20241425, Mary Rodriguez, R203425, Ph.D Physics, 2020, 97, 100, 97.0
+UTOR20241426, William Verma, R203426, M.Tech Mathematics, 2023, 63, 100, 63.0
+OXF20241427, Barbara Williams, R203427, B.A Mechanical Engineering, 2021, 99, 100, 99.0
+STAN20241428, Jessica Singh, R203428, B.Tech Psychology, 2023, 88, 100, 88.0
+MIT20241429, Barbara Miller, R203429, B.A Data Science, 2023, 92, 100, 92.0
+UMEL20241430, Sana Joshi, R203430, B.Tech Computer Science, 2020, 78, 100, 78.0
+UTOR20241431, Jennifer Kumar, R203431, M.A Mathematics, 2022, 77, 100, 77.0
+OXF20241432, Sai Martinez, R203432, B.Tech Physics, 2020, 90, 100, 90.0
+HARV20241433, Myra Iyer, R203433, M.Tech Chemistry, 2022, 76, 100, 76.0
+NUS20241434, Charles Reddy, R203434, M.Sc Electrical Engineering, 2022, 68, 100, 68.0
+NUS20241435, Thomas Gupta, R203435, M.Tech Psychology, 2021, 78, 100, 78.0
+HARV20241436, Linda Verma, R203436, M.A Mathematics, 2023, 98, 100, 98.0
+UMEL20241437, Myra Verma, R203437, B.A Mechanical Engineering, 2024, 90, 100, 90.0
+NUS20241438, Ananya Mishra, R203438, M.Sc Mechanical Engineering, 2021, 88, 100, 88.0
+CAM20241439, Joseph Garcia, R203439, M.A Data Science, 2020, 82, 100, 82.0
+TSING20241440, Sana Martinez, R203440, B.A Computer Science, 2022, 68, 100, 68.0
+TSING20241441, Ananya Smith, R203441, B.Tech Mechanical Engineering, 2023, 81, 100, 81.0
+NUS20241442, James Rodriguez, R203442, M.Sc Mechanical Engineering, 2022, 96, 100, 96.0
+NUS20241443, Zoya Kumar, R203443, B.Tech Psychology, 2021, 62, 100, 62.0
+HARV20241444, James Martinez, R203444, B.Tech Mathematics, 2024, 93, 100, 93.0
+UTOR20241445, Joseph Johnson, R203445, B.Tech Psychology, 2021, 80, 100, 80.0
+STAN20241446, Zoya Iyer, R203446, B.Sc Chemistry, 2023, 66, 100, 66.0
+HARV20241447, Aditya Gupta, R203447, M.Tech Physics, 2021, 87, 100, 87.0
+MIT20241448, Jennifer Singh, R203448, B.A Economics, 2024, 88, 100, 88.0
+TSING20241449, William Smith, R203449, M.Sc Electrical Engineering, 2021, 76, 100, 76.0
+TSING20241450, Ananya Mishra, R203450, B.A Economics, 2023, 73, 100, 73.0
+UMEL20241451, Sarah Reddy, R203451, B.Sc Physics, 2024, 88, 100, 88.0
+CAM20241452, Diya Verma, R203452, M.Sc Economics, 2024, 92, 100, 92.0
+OXF20241453, Mary Garcia, R203453, B.A Computer Science, 2023, 67, 100, 67.0
+NUS20241454, Jessica Rodriguez, R203454, B.Tech Psychology, 2023, 91, 100, 91.0
+UMEL20241455, Richard Garcia, R203455, M.Sc Data Science, 2024, 61, 100, 61.0
+ETH20241456, Sarah Verma, R203456, B.Sc Economics, 2021, 94, 100, 94.0
+ETH20241457, William Smith, R203457, B.A Electrical Engineering, 2023, 88, 100, 88.0
+NUS20241458, John Mishra, R203458, B.Sc Mechanical Engineering, 2021, 94, 100, 94.0
+UMEL20241459, Richard Singh, R203459, Ph.D Psychology, 2021, 85, 100, 85.0
+UTOR20241460, John Iyer, R203460, B.Tech Data Science, 2021, 80, 100, 80.0
+OXF20241461, Susan Smith, R203461, B.Tech Civil Engineering, 2020, 89, 100, 89.0
+MIT20241462, Sarah Williams, R203462, M.Tech Mathematics, 2022, 61, 100, 61.0
+TSING20241463, Vihaan Brown, R203463, M.Sc Civil Engineering, 2023, 70, 100, 70.0
+ETH20241464, Diya Singh, R203464, B.Sc Mathematics, 2023, 64, 100, 64.0
+OXF20241465, Aditya Verma, R203465, M.Tech Computer Science, 2023, 96, 100, 96.0
+CAM20241466, Charles Kumar, R203466, B.Sc Economics, 2020, 85, 100, 85.0
+NUS20241467, William Smith, R203467, B.Sc Electrical Engineering, 2022, 94, 100, 94.0
+UTOR20241468, Ananya Martinez, R203468, B.A Data Science, 2020, 94, 100, 94.0
+MIT20241469, Sai Singh, R203469, M.Tech Civil Engineering, 2024, 71, 100, 71.0
+STAN20241470, Aarav Smith, R203470, Ph.D Mathematics, 2022, 89, 100, 89.0
+NUS20241471, Barbara Sharma, R203471, B.Tech Data Science, 2020, 86, 100, 86.0
+UMEL20241472, Aarav Smith, R203472, B.Sc Physics, 2020, 60, 100, 60.0
+UMEL20241473, Patricia Gupta, R203473, M.A Computer Science, 2020, 60, 100, 60.0
+STAN20241474, Aarav Gupta, R203474, Ph.D Physics, 2020, 97, 100, 97.0
+OXF20241475, Susan Kumar, R203475, M.Tech Economics, 2020, 78, 100, 78.0
+NUS20241476, Richard Kumar, R203476, M.Tech Electrical Engineering, 2021, 90, 100, 90.0
+CAM20241477, David Kumar, R203477, M.Sc Data Science, 2023, 65, 100, 65.0
+NUS20241478, Sarah Kumar, R203478, Ph.D Mechanical Engineering, 2023, 60, 100, 60.0
+CAM20241479, Diya Sharma, R203479, Ph.D Economics, 2021, 63, 100, 63.0
+CAM20241480, James Gupta, R203480, M.Tech Chemistry, 2020, 63, 100, 63.0
+ETH20241481, Jennifer Garcia, R203481, B.Sc Mathematics, 2024, 79, 100, 79.0
+MIT20241482, Linda Joshi, R203482, B.Tech Civil Engineering, 2024, 86, 100, 86.0
+ETH20241483, David Rodriguez, R203483, B.Sc Chemistry, 2021, 84, 100, 84.0
+NUS20241484, Diya Gupta, R203484, B.A Electrical Engineering, 2020, 77, 100, 77.0
+ETH20241485, David Joshi, R203485, B.A Data Science, 2023, 87, 100, 87.0
+STAN20241486, David Joshi, R203486, M.Sc Mathematics, 2020, 73, 100, 73.0
+CAM20241487, Myra Sharma, R203487, B.Tech Electrical Engineering, 2021, 61, 100, 61.0
+CAM20241488, Sana Gupta, R203488, B.Sc Mathematics, 2023, 77, 100, 77.0
+OXF20241489, Sana Davis, R203489, B.A Economics, 2024, 65, 100, 65.0
+ETH20241490, Aarav Miller, R203490, B.Sc Chemistry, 2020, 64, 100, 64.0
+TSING20241491, Susan Johnson, R203491, B.Sc Physics, 2022, 65, 100, 65.0
+CAM20241492, Karen Kumar, R203492, Ph.D Civil Engineering, 2021, 88, 100, 88.0
+NUS20241493, Robert Jones, R203493, B.Tech Mechanical Engineering, 2020, 78, 100, 78.0
+CAM20241494, Myra Miller, R203494, M.Sc Civil Engineering, 2023, 62, 100, 62.0
+STAN20241495, Sai Garcia, R203495, B.Sc Computer Science, 2020, 79, 100, 79.0
+HARV20241496, Barbara Iyer, R203496, Ph.D Economics, 2021, 68, 100, 68.0
+UTOR20241497, Elizabeth Kumar, R203497, M.Tech Data Science, 2022, 72, 100, 72.0
+OXF20241498, Reyansh Kumar, R203498, M.Tech Electrical Engineering, 2023, 64, 100, 64.0
+MIT20241499, Elizabeth Joshi, R203499, M.Sc Economics, 2024, 82, 100, 82.0

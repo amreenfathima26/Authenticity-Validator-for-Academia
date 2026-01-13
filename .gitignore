@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.sqlite
+backend/authenticity_validator.sqlite
+frontend/build/
+dist/
+coverage/
+.DS_Store
+*.log
