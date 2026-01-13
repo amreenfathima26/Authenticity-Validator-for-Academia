@@ -1,13 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-const { connectDB } = require('./config/db');
+const { query } = require('./config/db');
 
 // Map of Institution Code to Institution ID (populated during execution)
 const institutionMap = new Map();
 
 const seedData = async () => {
-    const db = await connectDB();
-    console.log('Database connected for seeding...');
+    console.log('Starting seed process...');
 
     // 1. Seed Institutions
     // We check for sample, real, and bulk institution files
@@ -31,22 +30,31 @@ const seedData = async () => {
 
                 try {
                     // Check if exists
-                    const existing = await db.get('SELECT id FROM institutions WHERE code = ?', [code]);
+                    const existingRes = await query('SELECT id FROM institutions WHERE code = $1', [code]);
+
                     let institutionId;
 
-                    if (existing) {
-                        institutionId = existing.id;
+                    if (existingRes.rows.length > 0) {
+                        institutionId = existingRes.rows[0].id;
                         // console.log(`Institution ${code} already exists.`);
                     } else {
-                        const result = await db.run(
+                        // Use RETURNING id to get the inserted ID in a cross-compatible way (works in PG and modern SQLite)
+                        const insertRes = await query(
                             `INSERT INTO institutions (name, code, type, address, contact_email, contact_phone) 
-                             VALUES (?, ?, ?, ?, ?, ?)`,
+                             VALUES ($1, $2, $3, $4, $5, $6)
+                             RETURNING id`,
                             [name, code, type || 'University', `${city || ''}, ${state || ''}`, email || '', phone || '']
                         );
-                        institutionId = result.lastID;
-                        console.log(`Inserted Institution: ${name}`);
+                        // If result has rows, use the first row's id. 
+                        // Note: validation of insert success relies on rows being present.
+                        if (insertRes.rows && insertRes.rows.length > 0) {
+                            institutionId = insertRes.rows[0].id;
+                            console.log(`Inserted Institution: ${name}`);
+                        }
                     }
-                    institutionMap.set(code, institutionId);
+                    if (institutionId) {
+                        institutionMap.set(code, institutionId);
+                    }
                 } catch (err) {
                     console.error(`Error inserting institution ${code}:`, err.message);
                 }
@@ -99,12 +107,13 @@ const seedData = async () => {
 
             try {
                 // Ensure unique certificate number insert
-                await db.run(
+                // Postgres requires ON CONFLICT(column) to trigger, which is correct
+                await query(
                     `INSERT INTO certificates (
                         institution_id, certificate_number, student_name, roll_number, 
                         course_name, year_of_passing, marks_obtained, total_marks, percentage,
                         status
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'active') 
+                    ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, 'active') 
                     ON CONFLICT(certificate_number) DO NOTHING`,
                     [institutionId, certNum, name, roll, course, parseInt(year) || 0, parseFloat(marks) || 0, parseFloat(total) || 100, parseFloat(pct) || 0]
                 );
