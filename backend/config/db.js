@@ -13,18 +13,38 @@ const connectDB = async () => {
   if (isProduction) {
     if (pgPool) return pgPool;
     try {
+      const connStr = process.env.DATABASE_URL;
+
+      // Mask sensitive info for logging
+      try {
+        const masked = connStr.replace(/(:\/\/)(.*)(:)(.*)(@)/, '$1***:***@');
+        console.log(`Attempting to connect to PostgreSQL at: ${masked}`);
+
+        // Specific check for the common "ENOTFOUND base" error
+        if (connStr.includes('@base') || connStr.includes('//base')) {
+          console.error('CRITICAL: Your DATABASE_URL contains "base" as a hostname. This is likely a placeholder. Please check your Render Environment Variables!');
+        }
+      } catch (e) {
+        console.log('Attempting to connect to PostgreSQL (URL masking failed)');
+      }
+
       pgPool = new Pool({
-        connectionString: process.env.DATABASE_URL,
+        connectionString: connStr,
         ssl: {
           rejectUnauthorized: false
         }
       });
-      console.log('Connected to PostgreSQL database');
+
+      // Test the connection immediately
+      await pgPool.query('SELECT NOW()');
+      console.log('Successfully connected to PostgreSQL database');
+
       await initializeDB();
       return pgPool;
     } catch (error) {
-      console.error('Failed to connect to PostgreSQL:', error);
-      process.exit(1);
+      console.error('Failed to connect to PostgreSQL:', error.message);
+      // Don't exit process here so server can still respond with health checks/errors
+      return null;
     }
   } else {
     // SQLite Fallback
@@ -49,7 +69,7 @@ const initializeDB = async () => {
   const isPg = isProduction;
   const serialType = isPg ? 'SERIAL' : 'INTEGER';
   const autoIncrement = isPg ? '' : 'AUTOINCREMENT';
-  
+
   try {
     const db = isPg ? pgPool : dbInstance;
     const run = async (sql, params = []) => {
@@ -146,40 +166,43 @@ const initializeDB = async () => {
 
     // Indexes
     if (isPg) {
-        await run(`CREATE INDEX IF NOT EXISTS idx_certificates_number ON certificates(certificate_number)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_certificates_institution ON certificates(institution_id)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_verifications_certificate ON verifications(certificate_id)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_verifications_status ON verifications(verification_status)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_certificates_number ON certificates(certificate_number)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_certificates_institution ON certificates(institution_id)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_verifications_certificate ON verifications(certificate_id)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_verifications_status ON verifications(verification_status)`);
     } else {
-        await run(`CREATE INDEX IF NOT EXISTS idx_certificates_number ON certificates(certificate_number)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_certificates_institution ON certificates(institution_id)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_verifications_certificate ON verifications(certificate_id)`);
-        await run(`CREATE INDEX IF NOT EXISTS idx_verifications_status ON verifications(verification_status)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_certificates_number ON certificates(certificate_number)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_certificates_institution ON certificates(institution_id)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_verifications_certificate ON verifications(certificate_id)`);
+      await run(`CREATE INDEX IF NOT EXISTS idx_verifications_status ON verifications(verification_status)`);
     }
 
     // Default Admin
     const bcrypt = require('bcryptjs');
     const adminPassword = bcrypt.hashSync('admin123', 10);
-    
+
     // Check if admin exists
-    const checkAdmin = isPg 
-        ? await run('SELECT id FROM users WHERE email = $1', ['admin@system.com'])
-        : await db.get('SELECT id FROM users WHERE email = ?', ['admin@system.com']);
-        
+    const checkAdmin = isPg
+      ? await run('SELECT id FROM users WHERE email = $1', ['admin@system.com'])
+      : await db.get('SELECT id FROM users WHERE email = ?', ['admin@system.com']);
+
     const hasAdmin = isPg ? (checkAdmin.rowCount > 0) : !!checkAdmin;
 
     if (!hasAdmin) {
-       await run(
-         `INSERT INTO users (email, password, name, role) VALUES ($1, $2, 'System Admin', 'admin')`
-         .replace(/\$1/g, isPg ? '$1' : '?')
-         .replace(/\$2/g, isPg ? '$2' : '?'), 
-         ['admin@system.com', adminPassword]
-       );
+      await run(
+        `INSERT INTO users (email, password, name, role) VALUES ($1, $2, 'System Admin', 'admin')`
+          .replace(/\$1/g, isPg ? '$1' : '?')
+          .replace(/\$2/g, isPg ? '$2' : '?'),
+        ['admin@system.com', adminPassword]
+      );
     }
 
     console.log('Database initialized successfully (' + (isPg ? 'PostgreSQL' : 'SQLite') + ')');
   } catch (error) {
-    console.error('Error initializing database:', error);
+    console.error('Error during database initialization:', error.message);
+    if (error.code === 'ENOTFOUND') {
+      console.error('TIP: This usually means the hostname in your DATABASE_URL is wrong.');
+    }
   }
 };
 
@@ -199,27 +222,27 @@ const query = async (text, params = []) => {
     if (!dbInstance) await connectDB();
     // Convert pg params ($1...) to sqlite params (?, ?...)
     const sql = text.replace(/\$\d+/g, '?');
-    
-    try {
-        const rows = await dbInstance.all(sql, params);
-        
-        // Emulate PG result structure
-        // Also need to parse JSON fields if SQLite stored them as text
-        const jsonFields = ['extracted_data', 'anomalies'];
-        const processedRows = rows.map(row => {
-          const newRow = { ...row };
-          jsonFields.forEach(field => {
-            if (newRow[field] && typeof newRow[field] === 'string') {
-               try { newRow[field] = JSON.parse(newRow[field]); } catch(e) {}
-            }
-          });
-          return newRow;
-        });
 
-        return { rows: processedRows, rowCount: processedRows.length };
+    try {
+      const rows = await dbInstance.all(sql, params);
+
+      // Emulate PG result structure
+      // Also need to parse JSON fields if SQLite stored them as text
+      const jsonFields = ['extracted_data', 'anomalies'];
+      const processedRows = rows.map(row => {
+        const newRow = { ...row };
+        jsonFields.forEach(field => {
+          if (newRow[field] && typeof newRow[field] === 'string') {
+            try { newRow[field] = JSON.parse(newRow[field]); } catch (e) { }
+          }
+        });
+        return newRow;
+      });
+
+      return { rows: processedRows, rowCount: processedRows.length };
     } catch (err) {
-        console.error('Query error (SQLite):', err.message);
-        throw err;
+      console.error('Query error (SQLite):', err.message);
+      throw err;
     }
   }
 };
